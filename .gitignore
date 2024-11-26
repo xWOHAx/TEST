@@ -1,17 +1,1 @@
 test.db
-
-
-git config --global user.name "xWOHAx"
-git config --global user.email xxrxwoha@gmail.com
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/xWOHAx/TEST.git
-git push -u origin main
-
-
-git add .                    # Добавляем все файлы в зону подготовки
-git commit -m "Initial commit with README and database setup"  # Создаём коммит с описанием
-git push origin main         # Отправляем изменения на удалённый репозиторий на GitHub (если нужно)
